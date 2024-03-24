@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Big Mart Sales Prediction</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="/contact">Contact</a>
+            <a href="/predict">Predict</a>
+        </div>
+    </div>
+    <h1 align="center">Contact Us</h1>
+   <div class="contactcontainer">
+    <form class="contact-form" action="/contact" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+   </div>
+    
+   <footer class="footer">
+    <p>&copy; 2023 Big Mart. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

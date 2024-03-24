@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Mart Prediction</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css" >
+</head>
+<body>
+    <div class="navbar">
+        <h1>Big Mart Sales Prediction</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="/contact">Contact</a>
+            <a href="/predict">Predict</a>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 >Welcome to Big Mart Sales Prediction</h2>
+        <div class="form-container">
+            <form action="/home" method="POST">
+                <label for="Weight">Weight:</label>
+                <input type="text" id="Weight" name="Weight"><br><br>
+                <label for="FatContent">Fat Content:</label>
+                <input type="text" id="FatContent" name="FatContent"><br><br>
+                <label for="ProductVisibility">Product Visibility:</label>
+                <input type="text" id="ProductVisibility" name="ProductVisibility"><br><br>
+                <label for="ProductType">Product Type:</label>
+                <input type="text" id="ProductType" name="ProductType"><br><br>
+                <label for="MRP">MRP:</label>
+                <input type="text" id="MRP" name="MRP"><br><br>
+                <label for="Outlet">Outlet:</label>
+                <input type="text" id="Outlet" name="Outlet"><br><br>
+                <label for="Outlet_Establishment_Year">Outlet Years:</label>
+                <input type="text" id="Outlet_Establishment_Year" name="Outlet_Establishment_Year"><br><br>
+                <label for="Item_Identifier">New Item Type:</label>
+                <input type="text" id="Item_Identifier" name="Item_Identifier"><br><br>
+                <label for="OutletSize">Outlet Size:</label>
+                <input type="text" id="OutletSize" name="OutletSize"><br><br>
+                <label for="LocationType">Location Type:</label>
+                <input type="text" id="LocationType" name="LocationType"><br><br>
+                <label for="OutletType">Outlet Type:</label>
+                <input type="text" id="OutletType" name="OutletType"><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
